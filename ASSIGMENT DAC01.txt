@@ -1,0 +1,339 @@
+ROLL NO:- 01
+NAME:- AABHISHEK GUMME
+PG DAC 2023
+
+Q.1>----->
+----->
+package assigment1s;
+import java.util.Scanner;
+public class AssiQ10 {
+	public static void main(String [] args)
+	{
+		int a[],i;
+		a=new int[5];
+		int count=0;
+		System.out.println("enter a number");
+		Scanner in=new Scanner(System.in);
+		for(i=0;i<=4;i++) {
+			a[i]=in.nextInt();
+			
+		}
+		for(i=0;i<=4;i++)
+		{
+			if(a[i]%2==1)
+			{
+				a[i]=a[i]*a[i]*a[i];
+				count++;
+			}
+			System.out.println("arr["+i+"] = "+a[i]);
+		}
+		System.out.println("total count of odd digit replaced by = "+count);
+	}
+	
+}
+
+/*out put:-
+enter a number
+2
+5
+7
+5
+4
+arr[0] = 2
+arr[1] = 125
+arr[2] = 343
+arr[3] = 125
+arr[4] = 4
+total count of odd digit replaced by = 3
+*/
+
+Q.2>--->
+--->
+package assigment1s;
+import java.util.Scanner;
+
+public class AssiQ2 {
+	public static void main(String [] args)
+	{
+		int i,sum=0;
+		Scanner in=new Scanner(System.in);
+		int a[]=new int[5];
+		a[0]=55;
+		a[1]=50;
+		a[2]=60;
+		a[3]=70;
+		a[4]=35;
+		System.out.println("divisible by 10 is = ");
+		for( i=0;i<5;i++)
+		{ 
+			if(a[i]%10==0)
+			{
+				
+				System.out.println(a[i]);
+				sum+=a[i];
+			}
+		
+		}
+		System.out.println("sum of number"+sum);
+		
+	}
+
+}
+
+/*out put
+ divisible by 10 is = 
+  50
+  60
+  70
+sum of number180*/
+
+Q.3>----->
+------>
+package assigment1s;
+import java.util.Scanner;
+
+public class AssiQ3 {
+
+	public static void main(String[] args) {
+		int  i=0,j=1,fib=0,sum=0,num;
+		Scanner in =new Scanner(System.in);
+		System.out.println("enter a number");
+		num=in.nextInt();
+		
+			for(int a=0;a<=num;a++)
+			{
+				i=j;
+				j=fib;
+				fib=i+j;
+				sum=sum+fib;
+				
+			}
+			System.out.println("sum of febonachi series a number = "+sum);
+			
+		}
+
+}
+
+/*output:-
+enter a number
+25
+sum of febonachi series a number = 317810*/
+
+Q.4>---->
+---->package assigment1s;
+
+public class AssiQ4 {
+	public static void main(String [] args)
+	{
+		int i,n=25;
+		int a=1;
+		System.out.println("series of 5 = "+a);
+		for(i=0;i<n;i=i+5)
+		{
+			System.out.println("series of 5 ="+i);
+		}
+	}
+		
+
+}
+/*out put:-
+series of 5 =1
+series of 5 =0
+series of 5 =5
+series of 5 =10
+series of 5 =15
+series of 5 =20*/
+
+Q.5>---->
+---->
+package assigment1s;
+import java.util.Scanner;
+public class AssiQ5 {
+	public static void main(String [] args)
+	{
+		int a[],i;
+		a=new int[5];
+		int count=0;
+		System.out.println("enter a number");
+		Scanner in=new Scanner(System.in);
+		for(i=0;i<=4;i++) {
+			a[i]=in.nextInt();
+			
+		}
+		
+		//int [] a = {1,2,5,3,5,6,2};
+		System.out.println("enter duplicate number");
+		for( i=0;i<a.length;i++)
+		{
+			for(int j=i+1;j<a.length;j++)
+			{
+				//a[i]=in.nextInt();
+				if(a[i]==a[j])
+				{
+					System.out.println("occurance ="+a[i]);
+					
+				}
+				
+			}
+		}
+		
+	}
+}
+
+/*out put:-
+
+enter a number
+3
+4
+3
+5
+4
+enter duplicate number
+occurance =3
+occurance =4
+*/
+
+Q.6>---->
+----->
+
+Q.7>--->
+--->
+package assigment1s;
+import java.util.Scanner;
+public class AssiQ7 {
+	public static void main(String [] args)
+	{
+		Scanner in=new Scanner(System.in);
+		System.out.println("enter a number = ");
+		char ch=in.next().charAt(0);
+		int value=ch;
+		System.out.println("ASCII value of that number = "+value);
+	}
+	
+
+}
+
+/*out put:-
+ enter a number = 
+4
+ASCII value of that number = 52
+
+enter a number = 
+a
+ASCII value of that number = 97*/
+
+Q.8>------>
+---->
+package assigment1s;
+
+public class AssiQ8 {
+
+	public static void main(String[] args) {
+		int [] a = {1,2,5,3,5,6,2};
+		int count=0;
+		System.out.println("enter duplicate number");
+		for(int i=0;i<a.length;i++)
+		{
+			for(int j=i+1;j<a.length;j++)
+			{
+				if(a[i]==a[j])
+				{
+					System.out.println("occurance ="+a[i]);
+					count++;
+				}
+				//count++;
+			}
+		}
+		System.out.println("total count is = "+count);
+
+	}
+
+}
+
+/*out put:-
+enter duplicate number
+occurance =2,
+occurance =5,
+total count is = 2
+*/
+
+
+Q.9>------->
+---->
+package assigment1s;
+import java.util.Scanner;
+
+public class AssiQ9 {
+	public static void main(String [] args)
+	{
+		Scanner in=new Scanner(System.in);
+		int a[]=new int[5];
+		int sum=0,i,max=0,min=0;
+		System.out.println("enter a number");
+		for(i=0;i<5;i++)
+		{
+			a[i]=in.nextInt();
+			//sum+=a[i];
+			if(a[i]>max)
+			{
+				max=a[i];
+				//System.out.println("maximum number is= "+max);
+			}
+			else if(min<a[i])
+			{
+				min=a[i];
+				//System.out.println("minimum number is = "+min);
+			}
+			
+			
+		}
+		System.out.println("maximum number is= "+max);
+		System.out.println("minimum number is = "+min);
+	}
+
+}
+
+Q.10>------>
+----->
+package assigment1s;
+import java.util.Scanner;
+public class AssiQ10 {
+	public static void main(String [] args)
+	{
+		int a[],i;
+		a=new int[5];
+		int count=0;
+		System.out.println("enter a number");
+		Scanner in=new Scanner(System.in);
+		for(i=0;i<=4;i++) {
+			a[i]=in.nextInt();
+			
+		}
+		for(i=0;i<=4;i++)
+		{
+			if(a[i]%2==1)
+			{
+				a[i]=a[i]*a[i]*a[i];
+				count++;
+			}
+			System.out.println("arr["+i+"] = "+a[i]);
+		}
+		System.out.println("total count of odd digit replaced by = "+count);
+	}
+	
+}
+
+/*out put:-
+enter a number
+2
+5
+7
+5
+4
+arr[0] = 2
+arr[1] = 125
+arr[2] = 343
+arr[3] = 125
+arr[4] = 4
+total count of odd digit replaced by = 3
+*/

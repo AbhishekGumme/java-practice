@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry excluding="aaa/src/|day3/src/|day11/src/|day5/src/|day7/src/|src/|basic problem/|juhupractice/src/|lab1l/src/|day2/src/|Lab1/src/|day4/src/|day6/src/|day8/src/" kind="src" path=""/>
+	<classpathentry kind="src" path="aaa/src"/>
+	<classpathentry kind="src" path="basic problem"/>
+	<classpathentry kind="src" path="day11/src"/>
+	<classpathentry kind="src" path="day2/src"/>
+	<classpathentry kind="src" path="day3/src"/>
+	<classpathentry kind="src" path="day4/src"/>
+	<classpathentry kind="src" path="day5/src"/>
+	<classpathentry kind="src" path="day6/src"/>
+	<classpathentry kind="src" path="day7/src"/>
+	<classpathentry kind="src" path="day8/src"/>
+	<classpathentry kind="src" path="juhupractice/src"/>
+	<classpathentry kind="src" path="Lab1/src"/>
+	<classpathentry kind="src" path="lab1l/src"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="output" path="Lab1/bin"/>
+</classpath>

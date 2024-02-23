@@ -1,0 +1,30 @@
+package lab1l;
+class student
+{
+	String name,s;
+	student(String name)
+	{
+		this.name=name;
+	}
+	student()
+	{
+		s="unkown";
+	}
+	public void show()
+	{
+		System.out.println("name of student = "+name);
+	}
+}
+
+public class Studentclass {
+	public static void main(String [] args)
+	{
+	student s1=new student("abhishek");
+	student s2=new student();
+	s1.show();
+	s2.show();
+	}
+	
+	
+
+}
